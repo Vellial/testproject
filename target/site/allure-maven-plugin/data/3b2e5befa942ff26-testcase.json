@@ -1,0 +1,80 @@
+{
+  "uid" : "3b2e5befa942ff26",
+  "name" : "additionTest",
+  "title" : "Check addition operation",
+  "time" : {
+    "start" : 1503936357284,
+    "stop" : 1503936357288,
+    "duration" : 4
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "In this test we will check addition operation",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "70251939f5df8e49",
+    "name" : "trainee.allure.arithmeticTest",
+    "title" : "Arithmetic test suite. +, -, *, /"
+  },
+  "steps" : [ {
+    "name" : "getAdditionResult[3, 2, +]",
+    "title" : "Getting result of addition: 3 + 2",
+    "time" : {
+      "start" : 1503936357287,
+      "stop" : 1503936357287,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkResult[5, 5]",
+    "title" : "Check results. Expected Result = 5",
+    "time" : {
+      "start" : 1503936357288,
+      "stop" : 1503936357288,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "144764@Vellial-PC.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "Vellial-PC"
+  }, {
+    "name" : "suite-title",
+    "value" : "Arithmetic test suite. +, -, *, /"
+  }, {
+    "name" : "suite-name",
+    "value" : "trainee.allure.arithmeticTest"
+  } ],
+  "parameters" : [ ]
+}

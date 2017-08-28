@@ -1,0 +1,80 @@
+{
+  "uid" : "69b492fd5b9656bf",
+  "name" : "multiplicationTest",
+  "title" : "Check multiplication operation",
+  "time" : {
+    "start" : 1503936357290,
+    "stop" : 1503936357311,
+    "duration" : 21
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "In this test we will check multiplication operation",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "70251939f5df8e49",
+    "name" : "trainee.allure.arithmeticTest",
+    "title" : "Arithmetic test suite. +, -, *, /"
+  },
+  "steps" : [ {
+    "name" : "getMultiplicationResult[3, 2, *]",
+    "title" : "Getting result of multiplication: 3 * 2",
+    "time" : {
+      "start" : 1503936357292,
+      "stop" : 1503936357292,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkResult[6, 6]",
+    "title" : "Check results. Expected Result = 6",
+    "time" : {
+      "start" : 1503936357300,
+      "stop" : 1503936357300,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "144764@Vellial-PC.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "Vellial-PC"
+  }, {
+    "name" : "suite-title",
+    "value" : "Arithmetic test suite. +, -, *, /"
+  }, {
+    "name" : "suite-name",
+    "value" : "trainee.allure.arithmeticTest"
+  } ],
+  "parameters" : [ ]
+}

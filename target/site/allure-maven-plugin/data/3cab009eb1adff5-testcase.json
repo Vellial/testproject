@@ -1,0 +1,95 @@
+{
+  "uid" : "3cab009eb1adff5",
+  "name" : "divisionTest",
+  "title" : "Check division operation",
+  "time" : {
+    "start" : 1503936356898,
+    "stop" : 1503936357274,
+    "duration" : 376
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "In this test we will check division operation",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "70251939f5df8e49",
+    "name" : "trainee.allure.arithmeticTest",
+    "title" : "Arithmetic test suite. +, -, *, /"
+  },
+  "steps" : [ {
+    "name" : "getDivisionResult[6, 2, /]",
+    "title" : "Getting result of division: 6 / 2",
+    "time" : {
+      "start" : 1503936357227,
+      "stop" : 1503936357255,
+      "duration" : 28
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 1
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkNotZero[2]",
+      "title" : "Check divider",
+      "time" : {
+        "start" : 1503936357228,
+        "stop" : 1503936357255,
+        "duration" : 27
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkResult[3, 3]",
+    "title" : "Check results. Expected Result = 3",
+    "time" : {
+      "start" : 1503936357257,
+      "stop" : 1503936357257,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "144764@Vellial-PC.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "Vellial-PC"
+  }, {
+    "name" : "suite-title",
+    "value" : "Arithmetic test suite. +, -, *, /"
+  }, {
+    "name" : "suite-name",
+    "value" : "trainee.allure.arithmeticTest"
+  } ],
+  "parameters" : [ ]
+}

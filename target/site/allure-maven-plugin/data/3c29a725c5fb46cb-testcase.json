@@ -1,0 +1,80 @@
+{
+  "uid" : "3c29a725c5fb46cb",
+  "name" : "substractionTest",
+  "title" : "Check substraction operation",
+  "time" : {
+    "start" : 1503936357315,
+    "stop" : 1503936357321,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "In this test we will check substraction operation",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "70251939f5df8e49",
+    "name" : "trainee.allure.arithmeticTest",
+    "title" : "Arithmetic test suite. +, -, *, /"
+  },
+  "steps" : [ {
+    "name" : "getSubstractionResult[3, 2, -]",
+    "title" : "Getting result of substraction: 3 - 2",
+    "time" : {
+      "start" : 1503936357318,
+      "stop" : 1503936357318,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkResult[1, 1]",
+    "title" : "Check results. Expected Result = 1",
+    "time" : {
+      "start" : 1503936357320,
+      "stop" : 1503936357320,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "144764@Vellial-PC.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "Vellial-PC"
+  }, {
+    "name" : "suite-title",
+    "value" : "Arithmetic test suite. +, -, *, /"
+  }, {
+    "name" : "suite-name",
+    "value" : "trainee.allure.arithmeticTest"
+  } ],
+  "parameters" : [ ]
+}

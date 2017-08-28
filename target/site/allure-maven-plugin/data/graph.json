@@ -1,0 +1,47 @@
+{
+  "testCases" : [ {
+    "uid" : "3cab009eb1adff5",
+    "name" : "divisionTest",
+    "title" : "Check division operation",
+    "time" : {
+      "start" : 1503936356898,
+      "stop" : 1503936357274,
+      "duration" : 376
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3b2e5befa942ff26",
+    "name" : "additionTest",
+    "title" : "Check addition operation",
+    "time" : {
+      "start" : 1503936357284,
+      "stop" : 1503936357288,
+      "duration" : 4
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "69b492fd5b9656bf",
+    "name" : "multiplicationTest",
+    "title" : "Check multiplication operation",
+    "time" : {
+      "start" : 1503936357290,
+      "stop" : 1503936357311,
+      "duration" : 21
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3c29a725c5fb46cb",
+    "name" : "substractionTest",
+    "title" : "Check substraction operation",
+    "time" : {
+      "start" : 1503936357315,
+      "stop" : 1503936357321,
+      "duration" : 6
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}
