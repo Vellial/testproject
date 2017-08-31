@@ -6,7 +6,6 @@ import org.junit.runners.Parameterized;
 import ru.yandex.qatools.allure.annotations.*;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -21,16 +20,16 @@ import static org.junit.Assume.assumeThat;
 @Title("Arithmetic test suite. +, -, *, /")
 public class arithmeticTest {
 
-    public int op1;
-    public int op2;
-    public String operation;
-    public int result;
+    private int op1;
+    private int op2;
+    private String operation;
+    private int result;
 
-    public arithmeticTest(int op1, int op2, String operation, int result) {
-        this.op1 = op1;
-        this.op2 = op2;
+    public arithmeticTest(String op1, String op2, String operation, String result) {
+        this.op1 = Integer.valueOf(op1);
+        this.op2 = Integer.valueOf(op2);
         this.operation = operation;
-        this.result = result;
+        this.result = Integer.valueOf(result);
     }
 
     @Title("Check addition operation")
@@ -104,16 +103,13 @@ public class arithmeticTest {
             File file = new File(classLoader.getResource("data").getFile());
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String line;
-            List<String> lines = new ArrayList<String>();
             int i = 0;
             while ((line = reader.readLine()) != null) {
                 String[] params = line.split(";");
                 for (int j = 0; j < params.length; j++) {
-//                    System.out.println(Arrays.toString(params));
                     String op1 = params[j];
                     data[i][j] = op1;
                 }
-                lines.add(line);
                 i++;
             }
 
@@ -122,27 +118,6 @@ public class arithmeticTest {
         }
 
         return Arrays.asList(data);
-    }
-
-
-    // Get input data from file for tests.
-    private String getStrFromFile(int numberOfLine) {
-        String[] linesAsArray = new String[4];
-        try {
-            ClassLoader classLoader = getClass().getClassLoader();
-            File file = new File(classLoader.getResource("data").getFile());
-            BufferedReader reader = new BufferedReader(new FileReader(file));
-            String line;
-            List<String> lines = new ArrayList<String>();
-            while ((line = reader.readLine()) != null) {
-                lines.add(line);
-            }
-            linesAsArray = lines.toArray(new String[lines.size()]);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return linesAsArray[numberOfLine];
     }
 
 }
